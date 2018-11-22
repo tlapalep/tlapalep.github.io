@@ -1,6 +1,6 @@
 ## bienvenidos
 
-**vete al gato [gato]**  
+**vete al [gato](/gato)**  
 *vete a la [segunda](/dos)*  
 ***vete a la [tercera](/tres)***
 
