@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="../assets/favicon/site.webmanifest">
+        <link rel="shortcut icon" href="../assets/favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#000000">
+        <meta name="msapplication-config" content="../assets/favicon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+        <meta charset="UTF-8">
+
+        <title>Tres en línea</title>
+        <link rel = 'stylesheet' type = 'text/css' href = 'styles/ui.css'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div class = 'main-container'>
+            <div class = 'board'>
+                <!--Índice de datos siguiendo los divs de cada celda, siguiendo al índice en la representación del arreglo-->
+                <div class='cell' data-indx = "0" ></div>
+                <div class='cell' data-indx = "1" ></div>
+                <div class='cell' data-indx = "2" ></div>
+                <div class='cell' data-indx = "3" ></div>
+                <div class='cell' data-indx = "4" ></div>
+                <div class='cell' data-indx = "5" ></div>
+                <div class='cell' data-indx = "6" ></div>
+                <div class='cell' data-indx = "7" ></div>
+                <div class='cell' data-indx = "8" ></div>
+            </div>
+
+            <div class = 'control'>
+                <!--Selectores de dificultad-->
+                <div class = 'intial'>
+                    <div class = 'difficulty'>
+                        <span class = 'level not-selected' id = "blind">Dificultad Baja</span>
+                        <span class = 'level not-selected' id = "novice">Media</span>
+                        <span class = 'level not-selected' id = "master">IA</span>
+                    </div>
+
+                    <div class='start'> Iniciar </div>
+                </div>
+                <!--Mensajes y controles-->
+                <div class = 'ingame' id="human">Tu turno... </div>
+                <div class = 'ingame' id="ai">
+                    <img src = "imgs/robot.png" id = "robot" class = "robot" />
+                    <p>Turno de la computadora ...</p>
+                </div>
+                <div class = 'ingame' id="won">Jugador Gana</div>
+                <div class = 'ingame' id="lost">Computadora Gana</div>
+                <div class = 'ingame' id="draw">EMPATE</div>
+            </div>
+            <div class="message">
+                Ver documentación en el <a href="https://github.com/biskroma/Proyecto-Tres-en-Raya-JavaScript">repositorio GitHub <i class="fa fa-github"></i></a>
+            </div>
+        </div>
+
+        <script src = "scripts/jquery-1.10.1.min.js"></script>
+        <script src = "scripts/ui.js"></script>
+        <script src = "scripts/game.js"></script>
+        <script src = "scripts/ai.js"></script>
+        <script src = "scripts/control.js"></script>
+    </body>
+</html>
