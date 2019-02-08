@@ -5,7 +5,7 @@
 ***vete a la [tercera](/tres)***   
 vete a la [primera](/proyecto)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+cuando sea que hagas este repositorio, las paginas de github correran [Jekyll](https://jekyllrb.com/)para reconstruir las paginas en tu sitio, desde el contenido en tus archivos markdown
 
 ### Markdown
 
